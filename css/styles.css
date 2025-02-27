@@ -25,8 +25,8 @@ img {
 }
 
 nav {
-  background-color: #388dd2;
-  padding: 1em;
+  background-color: #2d78b4;
+  padding: .5em;
   justify-content: space-between;
   position: sticky;
   top: 0;
@@ -38,13 +38,15 @@ nav ul {
   width: 100%;
   list-style: none;
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
 }
 
 nav a {
-  color: #fdfcfc;
+  color: #ffffff;
   text-decoration: none;
-  padding: .5em 1em;
+  padding: .75em .75em;
+  line-height: 25px;
 }
 
 article {
