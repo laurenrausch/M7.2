@@ -6,62 +6,67 @@ body {
 }
 
 img {
-  max-width: 100%;
+  max-width: 90%;
   display: block;
 }
 
 .logo {
-  background-color: black;
-  color: white;
-  padding: 10px;
-  position: sticky;
-  top: 0;
-  left: 0;
-  margin: 1em 0;
-
   font-size: 200%;
+  padding: 20px 20px;
   margin: 0 auto;
   max-width: 980px;
 }
-
 
 .grid {
   margin: 0 auto;
   padding: 0 20px;
   max-width: 980px;
+  display: flex;
 }
 
 nav {
-  background-color: black;
-  color: white;
-  padding: 10px;
+  background-color: #388dd2;
+  padding: 1em;
+  justify-content: space-between;
   position: sticky;
   top: 0;
-  left: 0;
-  margin: 1em 0;
-
-  background-color: #000;
-  display: flex;
 }
 
 nav ul {
   margin: 0;
   padding: 0;
+  width: 100%;
   list-style: none;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 nav a {
-  color: #040404;
+  color: #fdfcfc;
   text-decoration: none;
   padding: .5em 1em;
+}
+
+article {
+  flex: 2;
+}
+
+aside {
+  flex: 1;
 }
 
 .photos {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 10px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
 }
 
 .feature {
   width: 200px;
+  float: inline-start;
+  padding: 10px;
 }
