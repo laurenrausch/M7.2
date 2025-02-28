@@ -14,6 +14,6 @@ You can run the website through Live Preview VSCode extension which will start t
     Ctrl+Shift+P
     Live Preview: Start Sever
 
-From here you should be able to use the website!
+From here you should be able to use the website and be able to see changes or adjustments in real time!
 You can also use the same URL from the live preview and use it in an actual browser page and be able to see the same result. (I recommend this method because then you can see the full page better.)
 ```
